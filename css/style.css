@@ -1,0 +1,74 @@
+body {
+    background-color: #211070;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #eee;
+    font-size: 24px;
+    margin-left: 20%;
+}
+
+.container {
+
+    width: 90%;
+    opacity: 1;
+}
+
+#main-bio {
+    color: #eee;
+    float: left;
+    width: 70%;
+    background-color: rgb(110, 111, 133);
+    margin-left: 15%;
+}
+
+#contact-info {
+    color: #eee;
+    float: right;
+    width: 30%;
+    background-color: rgb(110, 111, 133);
+    height: 224px;
+    margin-right: 20%;
+}
+
+#contact-form {
+    color: #eee;
+    float: left;
+    width: 30%;
+    background-color: rgb(110, 111, 133);
+    height: 224px;
+    margin-left: 20%;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 40px;
+    background-color: rgb(110, 111, 133);
+}
+
+#links {
+    text-align: center;
+    color: gainsboro;
+}
+
