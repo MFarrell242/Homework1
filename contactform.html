@@ -13,8 +13,8 @@
             <h1>Contact Me</h1>
             <br>
             <p id="links">
-                <a href="html-bio-with-css.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
+                <a class=a1 href="html-bio-with-css.html">About</a>
+                <a class= a1 href="portfolio.html">Portfolio</a>
                 <a href="contactform.html">Contact Me</a>
              </p>
       </header>
@@ -29,6 +29,21 @@
       <section id="contact-form">
           <h2>Send Me A Message</h2>
           <!-- put the contact form in here, but first figure that shit out I guess -->
+          <form method="POST" action="mailto:farrell.michael.w@gmail.com">
+              Name:<br>
+              <input type="text" name="Your Name">
+              <br>
+              Email:<br>
+              <input type="text" name="Your Email">
+              <br>
+              Message:<br>
+              <textarea name="Tell me something" rows="4" cols="35"></textarea>
+              <br>
+              <input type="submit" value="Submit">
+          </form>
       </section>
+      <footer>
+        <p> designed and built by Michael Farrell pls no steal</p>
+      </footer>
     </body>
 </html>

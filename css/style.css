@@ -24,7 +24,7 @@ h1 {
 h2 {
     color: #eee;
     font-size: 24px;
-    margin-left: 20%;
+    text-align: center;
 }
 
 .container {
@@ -37,26 +37,42 @@ h2 {
     color: #eee;
     float: left;
     width: 70%;
-    background-color: rgb(110, 111, 133);
-    margin-left: 15%;
+    background-color: rgb(61, 62, 78);
+    margin-left: 20%;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+#portfoliolist {
+    color: #eee;
+    float: left;
+    width: 60%;
+    background-color: rgb(61, 62, 78);
+    margin-left: 20%;
+    padding: 1%;
+    margin-bottom: 10px;
 }
 
 #contact-info {
     color: #eee;
     float: right;
     width: 30%;
-    background-color: rgb(110, 111, 133);
+    background-color: rgb(61, 62, 78);
     height: 224px;
     margin-right: 20%;
+    padding-top: 10px;
+    padding-left: 2%;
+    margin-bottom: 10px;
 }
 
 #contact-form {
+    padding-top: 10px;
     color: #eee;
     float: left;
     width: 30%;
-    background-color: rgb(110, 111, 133);
+    background-color: rgb(61, 62, 78);
     height: 224px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 #bio-image {
@@ -70,5 +86,28 @@ h2 {
 #links {
     text-align: center;
     color: gainsboro;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+.a1 {
+    padding-right: 40px;
+}
+
+form {
+    margin-left: 5%;
+}
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+    margin-top: 10px;
+    color:  rgb(71, 72, 88);
 }
 
